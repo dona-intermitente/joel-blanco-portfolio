@@ -1,0 +1,21 @@
+.body {
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    position: absolute;
+}
+
+.container {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.block {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
