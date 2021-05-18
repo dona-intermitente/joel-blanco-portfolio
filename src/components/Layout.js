@@ -10,7 +10,7 @@ export default function Layout(props) {
       </div>
       <div className={styles.container}>
         <div className={styles.block}>
-            
+              
         </div>
       </div>
     </div>

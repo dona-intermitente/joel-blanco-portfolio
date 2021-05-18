@@ -1,0 +1,43 @@
+.hamburger {
+    height: 50px;
+    cursor: pointer;
+  }
+  
+.hamburger img {
+    width: 50px;
+    height: 50px;
+}
+
+.item {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.item li{
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.item li:hover {
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.close {
+    top: 20px;
+    right: 20px;
+    height: 30px;
+    position: absolute;
+}
+
+.close img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.active {
+    color: red
+}
