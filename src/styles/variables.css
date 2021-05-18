@@ -1,0 +1,26 @@
+* {
+    --primary: #F4F4F4;
+    --secondary: #FEA621;
+    --accent: rgba(26,49,146,0.5);
+
+    --title: 500 24px 'Poppins';
+    --subtitle: 24px 'Poppins';
+    --body-bold: bold 18px 'Poppins';
+    --body: 18px 'Poppins';
+}
+
+.title {
+    font: var(--title);
+}
+
+.subtitle {
+    font:var(--subtitle)
+}
+
+.body-bold {
+    font: var(--body-bold);
+}
+
+.body {
+    font: var(--body);
+}
