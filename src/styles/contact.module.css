@@ -1,0 +1,55 @@
+.form {
+    top: 150px;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form label {
+    width: 90%;
+    height: 40px;
+    display: flex;
+}
+
+.form label p {
+    width: 40%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 0 0 10px;
+    background-color: var(--secondary);
+}
+
+.form label input {
+    width: 60%;
+    border: none;
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+    background-color: white;
+}
+
+.msg {
+    height: 40% !important;
+}
+
+.msg textarea {
+    width: 60%;
+    border: none;
+    resize: none;
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+}
+
+.form button {
+    width: 40%;
+    height: 40px;
+    color: white;
+    margin-left: 50%;
+    border-radius: 10px;
+    background-color: var(--secondary);
+}

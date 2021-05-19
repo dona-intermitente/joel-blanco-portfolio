@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import Logo from 'images/logo.png'
 import styles from 'styles/home.module.css'
 
@@ -10,11 +10,11 @@ export default function Home() {
         <h1 className='title'>Joel Blanco</h1>
         <h2 className='subtitle'>Developer Full stack</h2>
       </div>
-      <button className={'body-bold '+ styles.button}>
-        <Router>
-          <Link href='/contact'>Contact</Link>
-        </Router>
-      </button>
+      <NavLink to='/contact' className={styles.button}>
+        <button className='body-bold'>
+          Contact
+        </button>      
+      </NavLink>
     </div>
   )
 }
