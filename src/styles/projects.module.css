@@ -1,0 +1,66 @@
+.proyect {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--accent);
+}
+
+.proyect p {
+    width: 60%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: var(--primary);
+}
+
+.proyect img {
+    width: 100%;
+}
+
+.modal {
+    padding: 40px;
+    background-color: rgb(229,229,229,0.5);
+}
+
+.close {
+    top: 50px;
+    right: 50px;
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.paper {
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    border-radius: 10px;
+    background-color: var(--primary);
+}
+
+.images {
+    width: 60%;
+    overflow-y: scroll;
+}
+
+.images img {
+    margin-bottom: 20px;
+}
+
+.text {
+    width: 40%;
+    padding: 0 20px;
+    text-align: center;
+}
