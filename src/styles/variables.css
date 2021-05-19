@@ -24,3 +24,15 @@
 .body {
     font: var(--body);
 }
+
+.titles {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.content {
+    bottom: 0;
+    top: 150px;
+    overflow-y: scroll;
+    position: absolute;
+}

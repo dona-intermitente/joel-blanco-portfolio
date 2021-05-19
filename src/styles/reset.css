@@ -53,3 +53,12 @@ button {
 *:focus {
   outline: none;
 }
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(0,0,0,0.1);
+  border-radius: 2px;
+}

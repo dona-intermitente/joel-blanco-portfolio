@@ -1,0 +1,17 @@
+.section {
+    display: flex;
+    padding: 20px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.section img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.section p {
+    width: 100%;
+    padding: 10px;
+}
