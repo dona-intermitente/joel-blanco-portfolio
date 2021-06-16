@@ -16,3 +16,20 @@
     align-items: center;
     justify-content: center;
 }
+
+.menu {
+    width: 180px;
+    transform: translate3d(20%, -100%, 0);
+    text-align: center;
+    background: var(--secondary);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.menu a {
+    color: white;
+}
+
+.menu a:hover {
+    font-weight: bold;
+}
